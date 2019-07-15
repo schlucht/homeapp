@@ -1,11 +1,11 @@
 {
-  "name": "angular-electron",
-  "version": "6.0.1",
-  "description": "Angular 8 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
+  "name": "homeapp",
+  "version": "1.0.0",
+  "description": "Private homeapp",
+  "homepage": "https://github.com/schlucht/homeapp",
   "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
+    "name": "Schmid Lothar",
+    "email": "lothi@schmidschlucht.ch"
   },
   "keywords": [
     "angular",
