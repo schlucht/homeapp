@@ -2,8 +2,7 @@
 
 # Home App
 
-Eine App aus der Vorlage von  https://github.com/maximegris/angular-electron.git
-```
+Eine App aus der Vorlage von  (https://github.com/maximegris/angular-electron.git)
 
 ## Feature
 
