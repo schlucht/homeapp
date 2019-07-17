@@ -142,11 +142,11 @@
   "defaultProject": "angular-electron",
   "schematics": {
     "@schematics/angular:component": {
-      "prefix": "app",
+      "prefix": "ots",
       "styleext": "scss"
     },
     "@schematics/angular:directive": {
-      "prefix": "app"
+      "prefix": "ots"
     }
   }
 }

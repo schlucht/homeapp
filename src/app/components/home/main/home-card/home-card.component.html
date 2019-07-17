@@ -1,0 +1,13 @@
+
+<div class="card">
+  <div class="title">
+    <h2>{{ menuCard.title }}</h2>
+  </div>
+  <div class="body">
+    <img src="assets/images/{{menuCard.imgLink}}" alt="{{menuCard.title}}">
+    <p>
+      {{ menuCard.description }}
+    </p>
+    <a [routerLink] = " menuCard.link ">Mehr...</a>
+  </div>
+</div>

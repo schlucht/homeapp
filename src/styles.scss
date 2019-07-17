@@ -1,8 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'styles/index';
+
+
+
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  height: 100%;
-  color: #ddd;
+
+h1, h2, h3 {
+  color: $titleColor;
+}
+
+
+/* Styles for images */
+/*********************/
+.img-logo {
+  display: block;
 }

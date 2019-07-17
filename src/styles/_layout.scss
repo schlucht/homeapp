@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 98%;
+    height: 100%;
+    background-color: $milk;
+    text-align: center;
+    header, footer {
+      background-color: $backColor;
+      color: $milk;
+
+    }
+    header {  
+      display: flex; 
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 2rem;
+      padding: 2rem 2rem 2rem 2rem;  
+    }  
+    footer {
+      display: flex; 
+      flex-direction: row;
+      justify-content: space-between;
+      
+      span {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        display: block;
+      }
+    }  
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-self: stretch;
+        height: 100%;
+            aside {
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            flex-grow: 1;
+            align-self: stretch;
+            background-color: $backColor;
+            font-size: 1.1rem;                
+                a{
+                    display: block;
+                    font-size: 1.2rem;
+                    color: $defaultColor;
+                    padding: 1rem;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+            article {
+                flex-grow: 9;
+                background: #ccc;
+            }
+    }
+    ots-home {
+        height: 100%;
+    }
+  }
