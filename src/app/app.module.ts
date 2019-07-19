@@ -27,6 +27,7 @@ import { HomeCardComponent } from './components/home/main/home-card/home-card.co
 import { BuyComponent } from './components/home/buy/buy.component';
 import { TravelComponent } from './components/home/travel/travel.component';
 import { SportComponent } from './components/home/sport/sport.component';
+import { InstructionComponent } from './components/home/bank/instruction/instruction.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -46,7 +47,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeCardComponent,
     BuyComponent,
     TravelComponent,
-    SportComponent
+    SportComponent,
+    InstructionComponent
   ],
   imports: [
     BrowserModule,

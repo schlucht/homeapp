@@ -26,8 +26,8 @@
     "ng:serve:web": "npm run postinstall:web && ng serve -o",
     "electron:serve-tsc": "tsc -p tsconfig-serve.json",
     "electron:serve": "wait-on http-get://localhost:4200/ && npm run electron:serve-tsc && electron . --serve",
-    "electron:local": "npm run build:prod && electron .",    
-    "electron:windows": "npm run build:prod && electron-builder build --windows",    
+    "electron:local": "npm run build:prod && electron .",
+    "electron:windows": "npm run build:prod && electron-builder build --windows",
     "test": "npm run postinstall:web && ng test",
     "e2e": "npm run build:prod && mocha --timeout 300000 --require ts-node/register e2e/**/*.spec.ts",
     "version": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
@@ -85,5 +85,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/schlucht/homeapp/issues"
+  },
+  "dependencies": {
+    "@clr/ui": "^2.0.2"
   }
 }

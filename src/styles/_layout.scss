@@ -2,10 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 98%;
-    height: 100%;
-    background-color: $milk;
-    text-align: center;
+    width: 98%;    
+    background-color: $milk;    
     header, footer {
       background-color: $backColor;
       color: $milk;
