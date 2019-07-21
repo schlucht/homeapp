@@ -6,13 +6,18 @@
 /* Datum: 15.10.2018
 /* Sass Variablen deklariation
 /*************************************************************************/
-$strawberry:  #d8412f;
-$papaya:      #fe7a47;
-$milk:        #f8f9fa; // #c9c6c2;
-$granola:     #f5ca99;
-$pepercorn:   #755248;
-$lapis:       #556dac;
-$blackColor:   #223344;
+$blue-100: #eef7ff;
+$blue-200:#d4e3f0;
+$blue-300:#c5e4ff;
+$blue-400:#8bc9ff;
+$blue-500:#51aeff;
+$blue-600:#1692ff;
+$blue-700:#007;
+$blue-800:#0069c5;
+$blue-900:#005eaf;
+$blue-910:#00529a;
+$blue-920:#004684;
+$blue-930:#003a6e;
 
 // stylelint-disable
 $white:    #fff !default;
@@ -47,16 +52,16 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
-$backColor: $blackColor;
-$defaultColor: $milk;
 
-$titleColor: $papaya;
+$defaultColor: $white;
 
-$main-bg: $milk;
+$titleColor: $white;
+
+$main-bg: $gray-200;
 $main-color: $gray-800;
 
-$side-bg: $blackColor;
-$side-bg: $milk;
+$side-bg: $blue-930;
+$side-bg: $white;
 
 
 
