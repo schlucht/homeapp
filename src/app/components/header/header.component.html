@@ -1,9 +1,15 @@
 
 
 
-<header class="bg-yellow"> 
-    <a [routerLink]="home">
-        <img src='../../../../assets/images/log_normal.svg' alt='logo' height="120" width="120">
-    </a>       
-    <h1>UNSER HEIM</h1>  
+<header class="bg-yellow container-fluid"> 
+    <div class="row">
+        <div class="col-2">
+        <a [routerLink]="home">
+            <img src='../../../../assets/images/log_normal.svg' alt='logo' height="120" width="120">
+        </a>
+        </div>
+        <div class="col-10 text-center">
+            <h1 class="display-1">UNSER HEIM</h1>  
+        </div>
+    </div>
 </header> 

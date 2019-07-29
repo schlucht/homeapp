@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TopMenu } from '../top-menu/topmenu';
+import { menuList } from './menuList';
 
 @Component({
   selector: 'ots-travel',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./travel.component.scss']
 })
 export class TravelComponent implements OnInit {
+  menu: TopMenu[] = menuList;
 
   constructor() { }
 
   ngOnInit() {
+    // console.log(this.menu);
   }
 
 }

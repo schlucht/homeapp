@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -28,6 +30,7 @@ import { BuyComponent } from './components/home/buy/buy.component';
 import { TravelComponent } from './components/home/travel/travel.component';
 import { SportComponent } from './components/home/sport/sport.component';
 import { InstructionComponent } from './components/home/bank/instruction/instruction.component';
+import { TopMenuComponent } from './components/home/top-menu/top-menu.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -48,13 +51,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     BuyComponent,
     TravelComponent,
     SportComponent,
-    InstructionComponent
+    InstructionComponent,
+    TopMenuComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
+    NgbModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

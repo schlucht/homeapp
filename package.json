@@ -87,6 +87,8 @@
     "url": "https://github.com/schlucht/homeapp/issues"
   },
   "dependencies": {
-    "@clr/ui": "^2.0.2"
+    "@clr/ui": "^2.0.2",
+    "@ng-bootstrap/ng-bootstrap": "^5.1.0",
+    "bootstrap": "^4.3.1"
   }
 }

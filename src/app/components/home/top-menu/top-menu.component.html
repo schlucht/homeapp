@@ -1,0 +1,16 @@
+
+<nav>
+    <ul>
+        <li  *ngFor = "let menu of menuData, index as i" (click)="showMenu(menu)" >
+          {{ menu.name }}
+            <ul class="subMenu" id="{{ i }}"  
+                *ngIf = "menu.visibility" 
+                >
+                
+                <li *ngFor = "let sub of menu.sub">
+                    <a routerLink="sub.link">{{ sub.name }}</a>
+                </li>                
+            </ul>
+        </li>
+    </ul>
+</nav>
